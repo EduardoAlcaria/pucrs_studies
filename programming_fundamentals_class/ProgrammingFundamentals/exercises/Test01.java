@@ -1,12 +1,5 @@
 package exercises;
 
-
-/**
- * Write a description of class Test01 here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class Test01
 {
     public static int[] even = new int[5];
