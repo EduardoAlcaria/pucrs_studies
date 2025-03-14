@@ -17,5 +17,6 @@ public class Ex001 {
         int totTime = (hour * 60 * 60) + minutes * 60;
 
         System.out.println("The time in seconds is: " + totTime);
+
     }
 }
