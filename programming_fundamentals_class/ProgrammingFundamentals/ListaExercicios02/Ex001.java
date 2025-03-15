@@ -10,6 +10,8 @@ public class Ex001 {
         System.out.println("type your age: ");
         int age = scan.nextInt();
 
+        scan.nextLine();
+
         if (age >= 18) {
             System.out.println("you are an adult");
         }else {
