@@ -38,19 +38,21 @@ public class Ex002 {
         double g1 = (p1 + e + (2 * p2) + tf) / 5;
 
         double g2 = 0;
-        if (g1 < 7){
+        if (g1 < 7) {
             System.out.println("you are in G2");
             System.out.println("type the grade of the g2: ");
             g2 = scan.nextDouble();
+            scan.nextLine();
         }
-        double g2Final = (g1+g2) / 2;
+        double g2Final = (g1 + g2) / 2;
 
         if (g1 >= 7 || g2Final >= 5) {
             System.out.println("you are approved");
-        }else{
+        } else {
             System.out.println("you are reproved");
         }
         System.out.println("final grade: " + g1);
 
+        scan.close();
     }
 }
