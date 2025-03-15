@@ -15,5 +15,6 @@ public class Ex001 {
         }else {
             System.out.println("you are not an adult");
         }
+        scan.close();
     }
 }
