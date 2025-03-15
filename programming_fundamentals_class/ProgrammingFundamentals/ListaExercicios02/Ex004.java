@@ -15,9 +15,13 @@ public class Ex004 {
         System.out.println("type your height: ");
         double height = scan.nextDouble();
 
+        scan.nextLine();
+
         System.out.println("type your gender (m/f): ");
 
         char gender = Character.toLowerCase(scan.next().charAt(0));
+
+        scan.nextLine();
 
         switch (gender) {
             case 'm': {
