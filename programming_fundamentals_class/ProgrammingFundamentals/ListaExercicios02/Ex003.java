@@ -22,5 +22,6 @@ public class Ex003 {
         }else{
             System.out.println("you are an elder");
         }
+        scan.close();
     }
 }
