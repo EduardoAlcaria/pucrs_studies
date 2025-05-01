@@ -46,6 +46,8 @@ public class Ex006 {
            }else{
                System.out.println("it does not has the same characteristic");
            }
+        }else {
+            System.out.println("the number is not a 4 number digit");
         }
 
     }
