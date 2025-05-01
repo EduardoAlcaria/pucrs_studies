@@ -33,9 +33,6 @@ public class Ex014 {
             suitFinal = "Clubs";
         }
 
-        if (value == 'Q') {
-            valueFinal = "Queens of" ;
-        }
         if (value == 'A'){
             valueFinal = "As of ";
         }
@@ -47,9 +44,6 @@ public class Ex014 {
         }
         if (value == 'K'){
             valueFinal = "Thirteen of ";
-        }
-        if (value == '1'){
-            valueFinal = "One of ";
         }
         if (value == '2'){
             valueFinal = "Two of ";
@@ -105,10 +99,6 @@ public class Ex014 {
         if (suit == 'P'){
             suitFinal = "Clubs";
         }
-
-        if (value == 'Q') {
-            valueFinal = "Queens of" ;
-        }
         if (value == 'A'){
             valueFinal = "As of ";
         }
@@ -120,9 +110,6 @@ public class Ex014 {
         }
         if (value == 'K'){
             valueFinal = "Thirteen of ";
-        }
-        if (value == '1'){
-            valueFinal = "One of ";
         }
         if (value == '2'){
             valueFinal = "Two of ";
@@ -178,9 +165,6 @@ public class Ex014 {
             suitFinal = "Clubs";
         }
 
-        if (value == 'Q') {
-            valueFinal = "Queens of" ;
-        }
         if (value == 'A'){
             valueFinal = "As of ";
         }
@@ -192,9 +176,6 @@ public class Ex014 {
         }
         if (value == 'K'){
             valueFinal = "Thirteen of ";
-        }
-        if (value == '1'){
-            valueFinal = "One of ";
         }
         if (value == '2'){
             valueFinal = "Two of ";
