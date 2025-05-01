@@ -1,8 +1,13 @@
 package PointsProgram;
 
-public class Ex002 {
+import java.util.Scanner;
+
+public class EduardoAlcariaSemana11 {
     public static void main(String[] args) {
-        String sentence = "Arise from the shadows";
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Type a sentence: ");
+        String sentence = scanner.nextLine();
 
         char l;
         StringBuilder stringBuilder = new StringBuilder(sentence);
