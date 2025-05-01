@@ -5,7 +5,6 @@ package ListaExercicios02Complementar;
 //e escreva se as três cartas formam uma trinca. Para ser uma trinca, os
 //valores devem ser iguais, mas os naipes diferentes.
 
-import javax.smartcardio.Card;
 import java.util.Scanner;
 
 public class Ex014 {
