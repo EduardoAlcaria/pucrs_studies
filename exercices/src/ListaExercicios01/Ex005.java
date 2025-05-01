@@ -1,18 +1,17 @@
 package ListaExercicios01;
 
-import java.util.Scanner;
-
 public class Ex005 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        int a = 10;
+        int b = 5;
 
-        System.out.println("type a Fahrenheit degree: ");
 
-        double fah = scanner.nextDouble();
-
-        double fahToCel = (fah-32) * 5/9;
-
-        System.out.printf("%.2f%n", fahToCel);
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println((a+b)/2);
+        System.out.println(Math.abs(a-b));
+        System.out.println(Math.max(a, b));
+        System.out.println(Math.min(a, b));
 
     }
 }
