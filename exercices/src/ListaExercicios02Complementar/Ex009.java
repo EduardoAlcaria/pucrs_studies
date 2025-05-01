@@ -55,6 +55,8 @@ public class Ex009 {
         System.out.println(sumAll2/3);
 
 
+
+
     }
 
 }
